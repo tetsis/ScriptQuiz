@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="Infractructure" value="EntityFramework" />
+    <add key="ConnectionString" value="[your connection string]" />
+  </appSettings>
+</configuration>

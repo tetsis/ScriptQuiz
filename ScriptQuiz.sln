@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptQuizCore", "ScriptQuizCore\ScriptQuizCore.csproj", "{FB750E7F-6979-4426-B2F2-F50BB011D7ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryInfrastructure", "InMemoryInfrastructure\InMemoryInfrastructure.csproj", "{E79C8234-5EA7-4059-A9E4-079241581131}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{2F6A5423-E0C2-4F54-B54A-94E8B1380AA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptQuizCLI", "ScriptQuizCLI\ScriptQuizCLI.csproj", "{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptQuizWeb", "ScriptQuizWeb\ScriptQuizWeb.csproj", "{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F8CC3E37-C349-4F48-9D24-3900C487A7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkInfrastructure", "EntityFrameworkInfrastructure\EntityFrameworkInfrastructure.csproj", "{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB750E7F-6979-4426-B2F2-F50BB011D7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB750E7F-6979-4426-B2F2-F50BB011D7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB750E7F-6979-4426-B2F2-F50BB011D7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB750E7F-6979-4426-B2F2-F50BB011D7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79C8234-5EA7-4059-A9E4-079241581131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79C8234-5EA7-4059-A9E4-079241581131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79C8234-5EA7-4059-A9E4-079241581131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79C8234-5EA7-4059-A9E4-079241581131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E79C8234-5EA7-4059-A9E4-079241581131} = {F8CC3E37-C349-4F48-9D24-3900C487A7EF}
+		{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4} = {2F6A5423-E0C2-4F54-B54A-94E8B1380AA8}
+		{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9} = {2F6A5423-E0C2-4F54-B54A-94E8B1380AA8}
+		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F} = {F8CC3E37-C349-4F48-9D24-3900C487A7EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74FDEEE9-DB6D-4EEB-BF4B-6B92E6DBE31E}
+	EndGlobalSection
+EndGlobal
