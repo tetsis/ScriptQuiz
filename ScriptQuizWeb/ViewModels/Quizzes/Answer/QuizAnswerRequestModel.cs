@@ -7,6 +7,6 @@ namespace ScriptQuizWeb.ViewModels.Quizzes.Answer
 {
     public class QuizAnswerRequestModel
     {
-        public int AnswerNumberOfAnswerer { get; set; }
+        public int ChoiceNumber { get; set; }
     }
 }

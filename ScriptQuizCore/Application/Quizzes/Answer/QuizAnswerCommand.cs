@@ -6,13 +6,13 @@ namespace ScriptQuizCore.Application.Quizzes.Answer
 {
     public class QuizAnswerCommand
     {
-        public QuizAnswerCommand(string id, int answerNumberOfAnswerer)
+        public QuizAnswerCommand(string id, int choiceNumber)
         {
             Id = id;
-            AnswerNumberOfAnswerer = answerNumberOfAnswerer;
+            ChoiceNumber = choiceNumber;
         }
 
         public string Id { get; }
-        public int AnswerNumberOfAnswerer { get; }
+        public int ChoiceNumber { get; }
     }
 }

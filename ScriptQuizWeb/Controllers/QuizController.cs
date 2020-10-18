@@ -40,8 +40,8 @@ namespace ScriptQuizWeb.Controllers
         [HttpPost]
         public ActionResult Details(IFormCollection collection, string id, QuizAnswerRequestModel quizAnswerRequestModel)
         {
-            var answerNumberOfAnswerer = quizAnswerRequestModel.AnswerNumberOfAnswerer;
-            var command = new QuizAnswerCommand(id, answerNumberOfAnswerer);
+            var choiceNumber = quizAnswerRequestModel.ChoiceNumber;
+            var command = new QuizAnswerCommand(id, choiceNumber);
             var result = quizApplicationService.Answer(command);
             var isCorrect = result.IsCorrect;
             return View("Answer", isCorrect);

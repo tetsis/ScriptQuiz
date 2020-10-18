@@ -50,11 +50,11 @@ namespace ScriptQuizCore.Application.Quizzes
         public QuizAnswerResult Answer(QuizAnswerCommand command)
         {
             var id = command.Id;
-            var answerNumberOfAnswerer = command.AnswerNumberOfAnswerer;
+            var choiceNumber = command.ChoiceNumber;
 
             var quiz = quizRepository.Find(id);
 
-            return new QuizAnswerResult(answerNumberOfAnswerer == quiz.AnswerNumber);
+            return new QuizAnswerResult(choiceNumber == quiz.AnswerNumber);
         }
     }
 }
