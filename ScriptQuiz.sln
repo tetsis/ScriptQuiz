@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScriptQuizWeb", "ScriptQuiz
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F8CC3E37-C349-4F48-9D24-3900C487A7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkInfrastructure", "EntityFrameworkInfrastructure\EntityFrameworkInfrastructure.csproj", "{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkInfrastructure", "EntityFrameworkInfrastructure\EntityFrameworkInfrastructure.csproj", "{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptQuizWPF", "ScriptQuizWPF\ScriptQuizWPF.csproj", "{156C6F73-6852-4287-9091-5B70EDE66E46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156C6F73-6852-4287-9091-5B70EDE66E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156C6F73-6852-4287-9091-5B70EDE66E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156C6F73-6852-4287-9091-5B70EDE66E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156C6F73-6852-4287-9091-5B70EDE66E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{A5D689E6-3B2C-423F-91D9-07AFC2CA05C4} = {2F6A5423-E0C2-4F54-B54A-94E8B1380AA8}
 		{FD9F8F12-D0F6-4F0E-B13D-0220293EA1F9} = {2F6A5423-E0C2-4F54-B54A-94E8B1380AA8}
 		{D5C20B3A-7693-4486-A4F2-7E561CE8A30F} = {F8CC3E37-C349-4F48-9D24-3900C487A7EF}
+		{156C6F73-6852-4287-9091-5B70EDE66E46} = {2F6A5423-E0C2-4F54-B54A-94E8B1380AA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74FDEEE9-DB6D-4EEB-BF4B-6B92E6DBE31E}
